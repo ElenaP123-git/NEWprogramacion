@@ -6,4 +6,5 @@ if num2 > 0:
         print("Acumulado",suma, "sumando", i)
     print("El total de la suma es: ", suma)
 else:
-    print("FIn")
+    print("Inválido,fin")
+    
