@@ -2,7 +2,7 @@ total = 3
 for i in range(0, 19, 2):
     if total% 2 == 0:
         total = i+ total
-        print(i)
+        print(i) #no hace falta pero quiero ver qué hace el sistema
     elif i%3 == 0:
 	    total = 4
 else:

@@ -9,3 +9,5 @@ for i in range(0, 19, 2):
     else:
 	    print(total+i)
 print(total)
+
+#OJITO (en cuaderno)
