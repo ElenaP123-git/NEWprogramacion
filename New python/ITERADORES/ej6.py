@@ -3,17 +3,17 @@ N = int(input("Ingrese la altura del cuadrado (N): "))
 print("--- Patrón ---")
 
 borde = "*"
-relleno_len = N - 2 
+relleno = N - 2 
 
 #Relleno Impar (solo #)
-relleno_impar = "#" * relleno_len
+relleno_impar = "#" * relleno
 
 # Relleno Par (@*@*)
-repeticiones = relleno_len // 2
+repeticiones = relleno // 2
 relleno_par = "@*" * repeticiones
 
 # Si la longitud del relleno es IMPAR, necesitamos un '@' extra al final.
-if relleno_len % 2 != 0:
+if relleno % 2 != 0:
     relleno_par += "@"
 
 i = 1 

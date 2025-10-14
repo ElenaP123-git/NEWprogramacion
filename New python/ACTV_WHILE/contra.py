@@ -1,5 +1,5 @@
-a=input("introduce la patata")
+a=input("introduce la contraseña: ")
 while a!="1234":
-    print("error")
-    a=input("introduce la patata:")
-print("bienvenido")
+    print("Error")
+    a=input("introduce la contraseña: ")
+print("Bienvenido")

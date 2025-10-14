@@ -6,3 +6,5 @@ for numfilas in range (altura_cuadrado):
     else:
         print("*"+ " " *(altura_cuadrado - 2) + "*")
 print("Fin")
+
+#OJITO

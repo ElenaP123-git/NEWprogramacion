@@ -12,5 +12,6 @@ while num > 0:
     num = num // 10  # Ejemplo: 123 // 10 = 12
     
 # El bucle se detiene cuando numero_a_procesar llega a 0.
-
 print("La suma de los dígitos es:", suma)
+
+#OJITO
