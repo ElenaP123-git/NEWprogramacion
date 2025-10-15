@@ -1,4 +1,4 @@
-nombre_alumno= input("Introduce tu nombre: ").upper #mayúsculas
+nombre_alumno= input("Introduce tu nombre: ").upper() #mayúsculas
 
 while nombre_alumno != "EXIT":
     nota= float(input("Introduce tu nota(0-100): "))
@@ -16,5 +16,5 @@ while nombre_alumno != "EXIT":
         case _ if 0 <= nota <= 49.9:
             print("Suspenso")
 
-    nombre_alumno = input("Introduzca EXIT si terminaste: ").upper
+    nombre_alumno = input("Introduzca EXIT si terminaste: ").upper ()
    
