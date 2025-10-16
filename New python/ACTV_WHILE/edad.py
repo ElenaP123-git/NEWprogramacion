@@ -4,4 +4,6 @@ while edad != 0 and edad!=18:
         print("Tienes tu bono cultural")
     else:
         edad = int(input("Introduce tu edad2: "))
+        if edad == 18:
+            print("Adquieres bono")
 print("Fin")

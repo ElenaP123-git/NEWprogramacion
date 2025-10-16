@@ -5,3 +5,4 @@ while i <= N:
     if i % 2 == 0:
         suma = suma+i
 i = i+1
+print(i, suma)

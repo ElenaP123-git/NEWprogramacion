@@ -10,11 +10,11 @@ fila_borde = "*" * N
 print("--- Patrón Dibujado ---")
 for i in range(1, N + 1):
     
-    # Condición de Borde (Primera o Última fila)
+    # (Primera o Última fila)
     if i == 1 or i == N:
         print(fila_borde)
     else:
-        # Imprime las filas interiores (ej. *###*)
+        # Imprime las filas interiores (*###*)
         print(fila_relleno)
 
 print("Fin")

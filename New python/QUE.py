@@ -6,4 +6,8 @@ for x in range (0,5):
 
 nombres = "Elena", "Alicia","Ana"
 for nombre in nombres:
-    print(nombre)
+    print(nombre) #Imprime cada nombre de la variable nombres
+
+nombres2 = int(input("Numero: "))
+for nombri in nombres2:
+    print(nombri)

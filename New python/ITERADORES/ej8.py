@@ -14,4 +14,4 @@ while num > 0:
 # El bucle se detiene cuando numero_a_procesar llega a 0.
 print("La suma de los dígitos es:", suma)
 
-#OJITO
+#HELP
